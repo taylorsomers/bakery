@@ -14,7 +14,7 @@ namespace BakedGoods
     {
       int discountMultiple = (int)(OrderAmount / 3);
       int discount = discountMultiple * 5;
-      int breadPrice = (OrderAmount * 5);
+      int breadPrice = (OrderAmount * 5) - discount;
       return breadPrice;
     }
   }
