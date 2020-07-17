@@ -16,16 +16,11 @@ class Program
       Console.WriteLine("Great! Our price per loaf of bread is $5. For every two loaves you order, the third is free! Pastries are $2 per item, and $1 off for every third pastry you order. To get started, please tell us how many loaves of bread you would like to order: ");
       string breadString = Console.ReadLine();
       int breadAmount = int.Parse(breadString);
-      // List<int> orderList = new List<int> {};
       Bread bread = new Bread(breadAmount);
       if (bread.OrderAmount < 0)
       {
         Console.WriteLine("We cannot process orders for negative amounts of bread. Perhaps you should consult a theoretical physicist about such a request?");
       }
-      // else
-      // {
-      //   orderList.Add(breadAmount);
-      // }
       Console.WriteLine("Great! Now please enter the number of pastries you would like to order: ");
       string pastryString = Console.ReadLine();
       int pastryAmount = int.Parse(pastryString);
@@ -34,10 +29,6 @@ class Program
       {
         Console.WriteLine("We cannot process orders for negative numbers of pastries. Perhaps you should consult a theoretical physicist about such a request?");
       }
-      // else
-      // {
-      //   orderList.Add(pastryAmount);
-      // }
       int outputPrice = bread.BreadPrice() + pastry.PastryPrice();
       Console.WriteLine("Thank you for your order! Your total comes out to: $" + outputPrice.ToString());
     }
