@@ -19,5 +19,12 @@ namespace BakedGoods.Tests
     Bread bread = new Bread(3);
     Assert.AreEqual(10, bread.BreadPrice());
     }
+
+    [TestMethod]
+    public void BreadPrice_CalculateBreadPriceWhenOrderAmountNotDivisibleByThree_BreadPrice()
+    {
+    Bread bread = new Bread(4);
+    Assert.AreEqual(15, bread.BreadPrice());
+    }
   }
 }
