@@ -36,5 +36,12 @@ namespace BakedGoods.Tests
       Pastry pastry = new Pastry(1);
       Assert.AreEqual(1, pastry.OrderAmount);
     }
+
+    [TestMethod]
+    public void PastryPrice_CalculatePastryPrice_PastryPrice()
+    {
+      Pastry pastry = new Pastry(1);
+      Assert.AreEqual(2, pastry.PastryPrice());
+    }
   }
 }

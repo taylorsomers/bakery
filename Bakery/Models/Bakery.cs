@@ -26,12 +26,12 @@ namespace BakedGoods
     {
       OrderAmount = orderAmount;
     }
-    public int BreadPrice()
+    public int PastryPrice()
     {
       int discountMultiple = (int)(OrderAmount / 3);
-      int discount = discountMultiple * 5;
-      int breadPrice = (OrderAmount * 5) - discount;
-      return breadPrice;
+      int discount = discountMultiple;
+      int pastryPrice = (OrderAmount * 3);
+      return pastryPrice;
     }
   }
 }
