@@ -4,7 +4,7 @@
 
 ## Description
 
-
+  This is a console program created with C# and .NET and is the first major project I have completed using this new programming language. It simulates a bakery user-interface that will greet a customer, confirm whether the customer would like to place an order, collect the number of bread loaves and pastries the customer would like to order, and calculate a discounted price for the total order depending on the amount of each item ordered.
 
 ## Languages & Technologies Used:
 
@@ -15,7 +15,6 @@
   ### Operating Systems & Programs
   * Brave
   * Git Bash
-  * Google Chrome
   * Microsoft Windows 10
   * Visual Studio Code
   * .NET Core
@@ -38,7 +37,7 @@
 
   | Program Behavior | Example Behavior | Example Output |
   | ----------- | ----------- | ----------- |
-  | Program will prompt the user with a welcome message and prices for both bread and pastries. |  |  |
+  | Program will prompt the user with a welcome message and prices for both bread and pastries. | "dotnet run" | "Welcome to Pierre's Bakery! We are very happy to serve you today. At Pierre's we offer bread loaves and pastries, both freshly made to order. Would you like to place an order today? Type Y for Yes or N for No." |
   | Program will collect the number of loaves of bread the user wants to order. |  |  |
   | Program will collect the number of pastries the user wants to order. |  |  |
   | Program will calculate the order price based on the number of loaves of bread and the number of pastries the user wants to order. |  |  |
