@@ -1,0 +1,12 @@
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\bin\Debug\netcoreapp2.2\Template.deps.json
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\bin\Debug\netcoreapp2.2\Template.runtimeconfig.json
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\bin\Debug\netcoreapp2.2\Template.runtimeconfig.dev.json
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\bin\Debug\netcoreapp2.2\Template.dll
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\bin\Debug\netcoreapp2.2\Template.pdb
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\obj\Debug\netcoreapp2.2\Template.csprojAssemblyReference.cache
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\obj\Debug\netcoreapp2.2\Template.AssemblyInfoInputs.cache
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\obj\Debug\netcoreapp2.2\Template.AssemblyInfo.cs
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\obj\Debug\netcoreapp2.2\Template.csproj.CoreCompileInputs.cache
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\obj\Debug\netcoreapp2.2\Template.dll
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\obj\Debug\netcoreapp2.2\Template.pdb
+C:\Users\Taylor\Desktop\templates\c#-templates\new-template\obj\Debug\netcoreapp2.2\Template.genruntimeconfig.cache
