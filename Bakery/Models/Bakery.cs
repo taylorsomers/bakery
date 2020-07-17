@@ -24,7 +24,7 @@ namespace BakedGoods
     public int OrderAmount {get; set;}
     public Pastry(int orderAmount)
     {
-      OrderAmount = orderAmount * 2;
+      OrderAmount = orderAmount;
     }
     public int BreadPrice()
     {
