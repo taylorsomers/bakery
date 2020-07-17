@@ -10,7 +10,7 @@ namespace BakedGoods.Tests
     public void Bread_CreateBreadObject_BreadObject()
     {
       Bread bread = new Bread(1);
-      Assert.AreEqual(2, bread.Price);
+      Assert.AreEqual(5, bread.BreadPrice());
     }
 
     [TestMethod]

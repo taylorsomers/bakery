@@ -13,8 +13,7 @@ namespace BakedGoods
     public int PastryPrice()
     {
       int discountMultiple = (int)(OrderAmount / 3);
-      int discount = discountMultiple;
-      int pastryPrice = (OrderAmount * 2) - discount;
+      int pastryPrice = (OrderAmount * 2) - discountMultiple;
       return pastryPrice;
     }
   }
