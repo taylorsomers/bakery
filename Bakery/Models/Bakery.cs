@@ -10,6 +10,13 @@ namespace BakedGoods
     {
       OrderAmount = orderAmount;
     }
+    public int BreadPrice()
+    {
+      int discountMultiple = (int)(OrderAmount / 3);
+      int discount = discountMultiple * 5;
+      int breadPrice = (OrderAmount * 5);
+      return breadPrice;
+    }
   }
 
   public class Pastry
