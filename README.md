@@ -4,7 +4,7 @@
 
 ## Description
 
-  This is a console program created with C# and .NET and is the first major project I have completed using this new programming language. It simulates a bakery user-interface that will greet a customer, confirm whether the customer would like to place an order, collect the number of bread loaves and pastries the customer would like to order, and calculate a discounted price for the total order depending on the amount of each item ordered.
+  This is a console program created with C# and .NET and is the first major project I have completed using this new programming language. It simulates a bakery user-interface that will greet a customer, confirm whether the customer would like to place an order, collect the number of bread loaves and pastries the customer would like to order, and calculate a discounted price for the total order depending on the amount of each item ordered. For every two loaves of bread the user orders, the third is free; and for every two pastries the user order, the third is half-price.
 
 ## Languages & Technologies Used:
 
