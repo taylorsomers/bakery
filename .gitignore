@@ -1,2 +1,5 @@
-bin/
-obj/
+Allergies/bin/
+Allergies/obj/
+Allergies.Tests/bin/
+Allergies.Tests/obj/
+.DS_Store
