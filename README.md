@@ -39,7 +39,7 @@
   | ----------- | ----------- | ----------- |
   | Program will prompt the user with a welcome message and prices for both bread and pastries. | "dotnet run" | "Welcome to Pierre's Bakery! We are very happy to serve you today. At Pierre's we offer bread loaves and pastries, both freshly made to order. Would you like to place an order today? Type Y for Yes or N for No." |
   | Program will collect the number of loaves of bread the user wants to order. | "Y" | "Great! Our price per loaf of bread is $5. For every two loaves you order, the third is free! Pastries are $2 per item, and $1 off for every third pastry you order. To get started, please tell us how many loaves of bread you would like to order: " |
-  | Program will collect the number of pastries the user wants to order. | "4" |  |
+  | Program will collect the number of pastries the user wants to order. | "4" | "Great! Now please enter the number of pastries you would like to order: " |
   | Program will calculate the order price based on the number of loaves of bread and the number of pastries the user wants to order. |  |  |
   | In calculating the total order price, the program will apply a discount on bread in the amount of $5.00 for every three loaves that are ordered. |  |  |
   | In calculating the total order price, the program will apply a discount on patries in the amount of $1.00 for every three pastries that are ordered. |  |  |
