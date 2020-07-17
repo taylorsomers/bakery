@@ -18,7 +18,8 @@ class Program
       Console.WriteLine("How many loaves of bread would you like?");
       string breadString = Console.ReadLine();
       int breadAmount = int.Parse(breadString);
-      Bread bread = new Bread(breadAmount);
+      Bread bread = new Bread(breadAmount, breadType);
+      BreadType(breadType);
       if (bread.OrderAmount < 0)
       {
         Console.WriteLine("We cannot process orders for negative amounts of bread. Perhaps you should consult a theoretical physicist about such a request?");
@@ -31,7 +32,7 @@ class Program
       {
         Console.WriteLine("We cannot process orders for negative numbers of pastries. Perhaps you should consult a theoretical physicist about such a request?");
       }
-      int outputPrice = bread.BreadPrice(breadType) + pastry.PastryPrice();
+      int outputPrice = bread.Price() + pastry.PastryPrice();
       Console.WriteLine("Thank you for your order! Your total comes out to: $" + outputPrice.ToString());
     }
   }
