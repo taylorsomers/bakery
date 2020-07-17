@@ -7,25 +7,16 @@ namespace BakedGoods
   {
     public int OrderAmount {get; set;}
     public int Price {get; set;}
-    public Bread(int orderAmount, string breadType)
+    public Bread(int orderAmount)
     {
-      OrderAmount = orderAmount;
-      Price = BreadPrice(orderAmount);
-      Price = BreadType(breadType);
+      int OrderAmount = orderAmount;
     }
     public int BreadPrice()
     {
       int discountMultiple = (int)(OrderAmount / 3);
       int discount = discountMultiple * 5;
       int breadPrice = (OrderAmount * 5) - discount;
-      Price = breadPrice;
-    }
-    public int BreadType(string breadType)
-    {
-      if (breadType == "french")
-      {
-        Price = Price * 2;
-      }
+      return breadPrice;
     }
   }
 }

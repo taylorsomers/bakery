@@ -13,13 +13,10 @@ class Program
     }
     else
     {
-      Console.WriteLine("Great! Our price per loaf of bread is $5. For every two loaves you order, the third is free! Pastries are $2 per item, and $1 off for every third pastry you order. To get started, please tell us what type of bread you would like to order. You can type 'wheat' for Wheat or 'french' for French: ");
-      string breadType = Console.ReadLine();
-      Console.WriteLine("How many loaves of bread would you like?");
+      Console.WriteLine("Great! Our price per loaf of bread is $5. For every two loaves you order, the third is free! Pastries are $2 per item, and $1 off for every third pastry you order. To get started, how many loaves of bread would you like?");
       string breadString = Console.ReadLine();
       int breadAmount = int.Parse(breadString);
-      Bread bread = new Bread(breadAmount, breadType);
-      BreadType(breadType);
+      Bread bread = new Bread(breadAmount);
       if (bread.OrderAmount < 0)
       {
         Console.WriteLine("We cannot process orders for negative amounts of bread. Perhaps you should consult a theoretical physicist about such a request?");
@@ -32,7 +29,7 @@ class Program
       {
         Console.WriteLine("We cannot process orders for negative numbers of pastries. Perhaps you should consult a theoretical physicist about such a request?");
       }
-      int outputPrice = bread.Price() + pastry.PastryPrice();
+      int outputPrice = bread.BreadPrice() + pastry.PastryPrice();
       Console.WriteLine("Thank you for your order! Your total comes out to: $" + outputPrice.ToString());
     }
   }
