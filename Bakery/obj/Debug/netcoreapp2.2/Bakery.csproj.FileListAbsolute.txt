@@ -1,0 +1,12 @@
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\obj\Debug\netcoreapp2.2\Bakery.csprojAssemblyReference.cache
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\obj\Debug\netcoreapp2.2\Bakery.AssemblyInfoInputs.cache
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\obj\Debug\netcoreapp2.2\Bakery.AssemblyInfo.cs
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\obj\Debug\netcoreapp2.2\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\bin\Debug\netcoreapp2.2\Bakery.deps.json
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\bin\Debug\netcoreapp2.2\Bakery.runtimeconfig.json
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\bin\Debug\netcoreapp2.2\Bakery.runtimeconfig.dev.json
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\bin\Debug\netcoreapp2.2\Bakery.dll
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\bin\Debug\netcoreapp2.2\Bakery.pdb
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\obj\Debug\netcoreapp2.2\Bakery.dll
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\obj\Debug\netcoreapp2.2\Bakery.pdb
+C:\Users\Taylor\Desktop\epicodus-projects\Bakery.Solution\Bakery\obj\Debug\netcoreapp2.2\Bakery.genruntimeconfig.cache

@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Taylor\\Desktop\\templates\\C#Templates\\NewProject.Solution\\NewProject\\NewProject.csproj",
-      "projectName": "NewProject",
-      "projectPath": "c:\\Users\\Taylor\\Desktop\\templates\\C#Templates\\NewProject.Solution\\NewProject\\NewProject.csproj",
+      "projectUniqueName": "C:\\Users\\Taylor\\Desktop\\epicodus-projects\\Bakery.Solution\\Bakery\\Bakery.csproj",
+      "projectName": "Bakery",
+      "projectPath": "C:\\Users\\Taylor\\Desktop\\epicodus-projects\\Bakery.Solution\\Bakery\\Bakery.csproj",
       "packagesPath": "C:\\Users\\Taylor\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Taylor\\Desktop\\templates\\C#Templates\\NewProject.Solution\\NewProject\\obj\\",
+      "outputPath": "C:\\Users\\Taylor\\Desktop\\epicodus-projects\\Bakery.Solution\\Bakery\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

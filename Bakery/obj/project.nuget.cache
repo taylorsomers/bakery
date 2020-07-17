@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xKC/5qe+DH8+9cQuysqZ2NZjQl46EhvLkPe2i7rKJ7304k8LCH8s7k3hYOFm3y/R3kmkey6Vreoyslm4QdEiaw==",
+  "dgSpecHash": "5qAWjTpCQdG1iIIINewwoM8SmzLzTHcZD7Gvh9ZVFhfl1j90NExt5mKdtbW1zcCy/6TiAv82Zj4awHjW9r1y7A==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Taylor\\Desktop\\templates\\C#Templates\\NewProject.Solution\\NewProject\\NewProject.csproj",
+  "projectFilePath": "C:\\Users\\Taylor\\Desktop\\epicodus-projects\\Bakery.Solution\\Bakery\\Bakery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Taylor\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Users\\Taylor\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

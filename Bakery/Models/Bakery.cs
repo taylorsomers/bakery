@@ -1,15 +1,19 @@
 using System;
 using System.Collections.Generic;
 
-namespace Bakery.Models
+namespace BakedGoods
 {
   public class Bread
   {
-    
+    public int OrderAmount {get; set;}
+    public Bread(int orderAmount)
+    {
+      OrderAmount = orderAmount * 2;
+    }
   }
 
   public class Pastry
   {
-    
+
   }
 }
