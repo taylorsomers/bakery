@@ -38,10 +38,12 @@
 
   | Program Behavior | Example Behavior | Example Output |
   | ----------- | ----------- | ----------- |
-  | Program will collect inputted integer representing an allergy score from the user. |  |  |
-  | Program will convert user-inputted integer into its binary form. |  |  |
-  | Program will evaluate which combination of allergy scores, if any, sum to the user-inputted integer. |  |  |
-  | Program will return an error if user-inputted integer is not in the range of 1 to 255. |  |  |
+  | Program will prompt the user with a welcome message and prices for both bread and pastries. |  |  |
+  | Program will collect the number of loaves of bread the user wants to order. |  |  |
+  | Program will collect the number of pastries the user wants to order. |  |  |
+  | Program will calculate the order price based on the number of loaves of bread and the number of pastries the user wants to order. |  |  |
+  | In calculating the total order price, the program will apply a discount on bread in the amount of $5.00 for every three loaves that are ordered. |  |  |
+  | In calculating the total order price, the program will apply a discount on patries in the amount of $1.00 for every three pastries that are ordered. |  |  |
 
 
 ## Known Bugs
