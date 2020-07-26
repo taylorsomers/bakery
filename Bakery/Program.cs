@@ -17,14 +17,14 @@ class Program
       string breadString = Console.ReadLine();
       int breadAmount = int.Parse(breadString);
       Console.WriteLine("What type of bread would you like? We offer French, Marble Rye, and Sourdough. (Please enter one of these types with exact spelling.)");
-      string type = Console.ReadLine().ToLower();
-      if (type != "french" && type != "marble rye" && type != "sourdough")
+      string breadType = Console.ReadLine().ToLower();
+      if (breadType != "french" && breadType != "marble rye" && breadType != "sourdough")
       {
         Console.WriteLine("Sorry, we do not know what type of bread you are requesting. Did you spell it correctly?");
       }
       else
       {
-        Bread bread = new Bread(breadAmount, type);
+        Bread bread = new Bread(breadAmount, breadType);
         if (bread.OrderAmount < 0)
         {
           Console.WriteLine("We cannot process orders for negative amounts of bread. Perhaps you should consult a theoretical physicist about such a request?");
@@ -32,13 +32,22 @@ class Program
         Console.WriteLine("Great! Now please enter the number of pastries you would like to order: ");
         string pastryString = Console.ReadLine();
         int pastryAmount = int.Parse(pastryString);
-        Pastry pastry = new Pastry(pastryAmount);
+        Console.WriteLine("What type of pastry would you like? We offer Croissant, Quenelle, and Baklava. (Please enter one of these types with exact spelling.)");
+        string pastryType = Console.ReadLine().ToLower();
+        if (pastryType != "croissant" && pastryType != "quenelle" && pastryType != "baklava")
+        {
+          Console.WriteLine("Sorry, we do not know what type of pastry you are requesting. Did you spell it correctly?");
+        }
+        else
+        {
+        Pastry pastry = new Pastry(pastryAmount, pastryType);
         if (pastry.OrderAmount < 0)
         {
           Console.WriteLine("We cannot process orders for negative numbers of pastries. Perhaps you should consult a theoretical physicist about such a request?");
         }
         int outputPrice = bread.Price + pastry.Price;
         Console.WriteLine("Thank you for your order! Your total comes out to: $" + outputPrice.ToString());
+        }
       }
     }
   }
