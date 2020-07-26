@@ -57,5 +57,18 @@ namespace BakedGoods.Tests
 
       Assert.AreEqual(20, result);
     }
+
+    [TestMethod]
+    public void BreadConstructor_AddsTypeOfBreadToInstanceOfBreadClass_Type()
+    {
+      int orderAmount = 5;
+      string breadType = "french";
+
+      Bread bread = new Bread(orderAmount, breadType);
+
+      string result = bread.Type;
+
+      Assert.AreEqual(breadType, result);
+    }
   }
 }
