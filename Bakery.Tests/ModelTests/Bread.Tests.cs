@@ -26,5 +26,16 @@ namespace BakedGoods.Tests
       Bread bread = new Bread(4);
       Assert.AreEqual(15, bread.BreadPrice());
     }
+
+    [TestMethod]
+    public void BreadConstructor_AddsPriceToInstanceOfBreadClass_Price()
+    {
+      int orderAmount = 5;
+      Bread bread = new Bread(orderAmount);
+
+      int result = bread.Price;
+
+      Assert.AreEqual(orderAmount, result);
+    }
   }
 }
