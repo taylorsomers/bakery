@@ -35,7 +35,7 @@ namespace BakedGoods.Tests
 
       int result = bread.Price;
 
-      Assert.AreEqual(orderAmount, result);
+      Assert.AreEqual(20, result);
     }
   }
 }
