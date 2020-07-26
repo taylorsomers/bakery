@@ -26,5 +26,16 @@ namespace BakedGoods.Tests
       Pastry pastry = new Pastry(3);
       Assert.AreEqual(5, pastry.PastryPrice());
     }
+
+    [TestMethod]
+    public void PastryConstructor_AddsPriceToInstanceOfPastryClass_Price()
+    {
+      int orderAmount = 5;
+      Pastry pastry = new Pastry(orderAmount);
+
+      int result = pastry.Price;
+
+      Assert.AreEqual(9, result);
+    }
   }
 }
