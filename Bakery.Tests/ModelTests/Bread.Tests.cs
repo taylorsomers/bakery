@@ -9,29 +9,49 @@ namespace BakedGoods.Tests
     [TestMethod]
     public void Bread_CreateBreadObject_BreadObject()
     {
-      Bread bread = new Bread(1);
-      Assert.AreEqual(1, bread.OrderAmount);
+      int orderAmount = 1;
+      string breadType = "french";
+
+      Bread bread = new Bread(orderAmount, breadType);
+
+      int result = bread.OrderAmount;
+
+      Assert.AreEqual(orderAmount, bread.OrderAmount);
     }
 
     [TestMethod]
     public void BreadPrice_CalculateBreadPrice_BreadPrice()
     {
-      Bread bread = new Bread(3);
-      Assert.AreEqual(10, bread.BreadPrice());
+      int orderAmount = 3;
+      string breadType = "french";
+      
+      Bread bread = new Bread(orderAmount, breadType);
+
+      int result = bread.BreadPrice();
+
+      Assert.AreEqual(10, result);
     }
 
     [TestMethod]
     public void BreadPrice_CalculateBreadPriceWhenOrderAmountNotDivisibleByThree_BreadPrice()
     {
-      Bread bread = new Bread(4);
-      Assert.AreEqual(15, bread.BreadPrice());
+      int orderAmount = 4;
+      string breadType = "french";
+      
+      Bread bread = new Bread(orderAmount, breadType);
+
+      int result = bread.BreadPrice();
+
+      Assert.AreEqual(15, result);
     }
 
     [TestMethod]
     public void BreadConstructor_AddsPriceToInstanceOfBreadClass_Price()
     {
       int orderAmount = 5;
-      Bread bread = new Bread(orderAmount);
+      string breadType = "french";
+
+      Bread bread = new Bread(orderAmount, breadType);
 
       int result = bread.Price;
 
