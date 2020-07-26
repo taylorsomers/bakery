@@ -14,7 +14,7 @@ namespace BakedGoods.Models
     }
     public int PastryPrice()
     {
-      int discountMultiple = this.OrderAmount / 3;
+      int discountMultiple = (int)(this.OrderAmount / 3);
       int pastryPrice = (this.OrderAmount * 2) - discountMultiple;
       return pastryPrice;
     }
