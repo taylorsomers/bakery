@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BakedGoods;
+using BakedGoods.Models;
 
 namespace BakedGoods.Tests
 {
