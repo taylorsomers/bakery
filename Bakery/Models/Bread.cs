@@ -11,7 +11,6 @@ namespace BakedGoods.Models
     {
       OrderAmount = orderAmount;
       Price = (this).BreadPrice();
-      Price = 70;
     }
     public int BreadPrice()
     {
