@@ -5,11 +5,12 @@ namespace BakedGoods.Models
 {
   public class Bread
   {
-    public int breadPrice {get; set;}
+    public int Price {get; set;}
     public int OrderAmount {get; set;}
     public Bread(int orderAmount)
     {
       OrderAmount = orderAmount;
+      Price = (this).BreadPrice();
     }
     public int BreadPrice()
     {

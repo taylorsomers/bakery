@@ -29,7 +29,7 @@ class Program
       {
         Console.WriteLine("We cannot process orders for negative numbers of pastries. Perhaps you should consult a theoretical physicist about such a request?");
       }
-      int outputPrice = bread.BreadPrice() + pastry.PastryPrice();
+      int outputPrice = bread.Price + pastry.PastryPrice();
       Console.WriteLine("Thank you for your order! Your total comes out to: $" + outputPrice.ToString());
     }
   }
