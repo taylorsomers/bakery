@@ -31,6 +31,13 @@
   8.  Open your computer's terminal and navigate to the directory bearing the name of the program and containing the top level subdirectories and files.
   9.  Enter the command "dotnet build" in the terminal.
   10. Enter the command "dotnet run" in the terminal. The program should begin to run in the console.
+
+  ### Test Instructions
+
+  1.  Open the application with Microsoft Visual Studio Code.
+  2.  Press "ctrl" + "j" to open the terminal.
+  3.  Navigate into the Bakery.Tests subdirectory by entering "cd Bakery.Tests" in the terminal.
+  4.  Enter "dotnet test" in the terminal to run test suites.
   
 
 ## Specifications
