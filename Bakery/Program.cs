@@ -16,21 +16,30 @@ class Program
       Console.WriteLine("Great! Our price per loaf of bread is $5. For every two loaves you order, the third is free! Pastries are $2 per item, and $1 off for every third pastry you order. To get started, how many loaves of bread would you like?");
       string breadString = Console.ReadLine();
       int breadAmount = int.Parse(breadString);
-      Bread bread = new Bread(breadAmount);
-      if (bread.OrderAmount < 0)
+      Console.WriteLine("What type of bread would you like? We offer French, Marble Rye, and Sourdough. (Please enter one of these types with exact spelling.)");
+      string type = Console.ReadLine().ToLower();
+      if (type != "french" && type != "marble rye" && type != "sourdough")
       {
-        Console.WriteLine("We cannot process orders for negative amounts of bread. Perhaps you should consult a theoretical physicist about such a request?");
+        Console.WriteLine("Sorry, we do not know what type of bread you are requesting. Did you spell it correctly?");
       }
-      Console.WriteLine("Great! Now please enter the number of pastries you would like to order: ");
-      string pastryString = Console.ReadLine();
-      int pastryAmount = int.Parse(pastryString);
-      Pastry pastry = new Pastry(pastryAmount);
-      if (pastry.OrderAmount < 0)
+      else
       {
-        Console.WriteLine("We cannot process orders for negative numbers of pastries. Perhaps you should consult a theoretical physicist about such a request?");
+        Bread bread = new Bread(breadAmount, type);
+        if (bread.OrderAmount < 0)
+        {
+          Console.WriteLine("We cannot process orders for negative amounts of bread. Perhaps you should consult a theoretical physicist about such a request?");
+        }
+        Console.WriteLine("Great! Now please enter the number of pastries you would like to order: ");
+        string pastryString = Console.ReadLine();
+        int pastryAmount = int.Parse(pastryString);
+        Pastry pastry = new Pastry(pastryAmount);
+        if (pastry.OrderAmount < 0)
+        {
+          Console.WriteLine("We cannot process orders for negative numbers of pastries. Perhaps you should consult a theoretical physicist about such a request?");
+        }
+        int outputPrice = bread.Price + pastry.Price;
+        Console.WriteLine("Thank you for your order! Your total comes out to: $" + outputPrice.ToString());
       }
-      int outputPrice = bread.Price + pastry.Price;
-      Console.WriteLine("Thank you for your order! Your total comes out to: $" + outputPrice.ToString());
     }
   }
 }
