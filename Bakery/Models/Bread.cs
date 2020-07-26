@@ -12,7 +12,6 @@ namespace BakedGoods.Models
     {
       OrderAmount = orderAmount;
       Type = type;
-      Type = "wrong type";
       Price = (this).BreadPrice();
     }
     public int BreadPrice()
