@@ -18,6 +18,14 @@ namespace BakedGoods.Models
     {
       int discountMultiple = ((int)(OrderAmount / 3)) * 5;
       int breadPrice = (OrderAmount * 5) - discountMultiple;
+      if (this.Type == "marble rye")
+      {
+        breadPrice = breadPrice * 3;
+      }
+      else if (this.Type == "sourdough")
+      {
+        breadPrice = breadPrice * 2;
+      }
       return breadPrice;
     }
   }
